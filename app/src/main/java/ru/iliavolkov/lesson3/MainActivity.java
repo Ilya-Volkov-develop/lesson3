@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btn1 = findViewById(R.id.btn);
 
         btn1.setOnClickListener(v -> {
-            counter1++;
+            counter1+=10;
             textCounter1.setText(String.format(Locale.getDefault(), "%d", counter1));
         });
 
